@@ -22,6 +22,7 @@
 		3C30C93C14BF193C002B3724 /* CanvasBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30C93B14BF193C002B3724 /* CanvasBoardTests.m */; };
 		3C30C94614BF1957002B3724 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30C94514BF1957002B3724 /* QuartzCore.framework */; };
 		3C30C95014BF1F5D002B3724 /* ViewElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30C94F14BF1F5D002B3724 /* ViewElements.m */; };
+		3C30C95C14BF8BE9002B3724 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30C95B14BF8BE9002B3724 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		3C30C94514BF1957002B3724 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C30C94E14BF1F5D002B3724 /* ViewElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewElements.h; sourceTree = "<group>"; };
 		3C30C94F14BF1F5D002B3724 /* ViewElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewElements.m; sourceTree = "<group>"; };
+		3C30C95A14BF8BE9002B3724 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		3C30C95B14BF8BE9002B3724 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				3C30C94F14BF1F5D002B3724 /* ViewElements.m */,
 				3C30C92214BF193C002B3724 /* ViewController.h */,
 				3C30C92314BF193C002B3724 /* ViewController.m */,
+				3C30C95A14BF8BE9002B3724 /* CircleView.h */,
+				3C30C95B14BF8BE9002B3724 /* CircleView.m */,
 				3C30C92514BF193C002B3724 /* ViewController.xib */,
 				3C30C91714BF193C002B3724 /* Supporting Files */,
 			);
@@ -271,6 +276,7 @@
 				3C30C92114BF193C002B3724 /* AppDelegate.m in Sources */,
 				3C30C92414BF193C002B3724 /* ViewController.m in Sources */,
 				3C30C95014BF1F5D002B3724 /* ViewElements.m in Sources */,
+				3C30C95C14BF8BE9002B3724 /* CircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

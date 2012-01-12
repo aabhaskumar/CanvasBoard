@@ -21,5 +21,4 @@
 //-----Methods-------
 -(UIView *)initView:(CGRect)rect withBackground:(UIColor *)color;
 -(UIButton *)createButton:(CGRect)rect withText:(NSString *)text;
-
 @end
