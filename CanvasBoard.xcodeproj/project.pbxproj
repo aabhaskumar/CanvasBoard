@@ -20,6 +20,8 @@
 		3C30C93114BF193C002B3724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30C91214BF193C002B3724 /* Foundation.framework */; };
 		3C30C93914BF193C002B3724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C30C93714BF193C002B3724 /* InfoPlist.strings */; };
 		3C30C93C14BF193C002B3724 /* CanvasBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30C93B14BF193C002B3724 /* CanvasBoardTests.m */; };
+		3C30C94614BF1957002B3724 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30C94514BF1957002B3724 /* QuartzCore.framework */; };
+		3C30C95014BF1F5D002B3724 /* ViewElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30C94F14BF1F5D002B3724 /* ViewElements.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		3C30C91014BF193C002B3724 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C30C91214BF193C002B3724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C30C91414BF193C002B3724 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3C30C91814BF193C002B3724 /* CanvasBoard-Info.plist */ = {isa = PBXFileReference; path = "CanvasBoard-Info.plist"; sourceTree = "<group>"; };
+		3C30C91814BF193C002B3724 /* CanvasBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanvasBoard-Info.plist"; sourceTree = "<group>"; };
 		3C30C91A14BF193C002B3724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C30C91C14BF193C002B3724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C30C91E14BF193C002B3724 /* CanvasBoard-Prefix.pch */ = {isa = PBXFileReference; path = "CanvasBoard-Prefix.pch"; sourceTree = "<group>"; };
-		3C30C91F14BF193C002B3724 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C30C91E14BF193C002B3724 /* CanvasBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanvasBoard-Prefix.pch"; sourceTree = "<group>"; };
+		3C30C91F14BF193C002B3724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C30C92014BF193C002B3724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C30C92214BF193C002B3724 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3C30C92214BF193C002B3724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3C30C92314BF193C002B3724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C30C92614BF193C002B3724 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		3C30C92D14BF193C002B3724 /* CanvasBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C30C92E14BF193C002B3724 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3C30C93614BF193C002B3724 /* CanvasBoardTests-Info.plist */ = {isa = PBXFileReference; path = "CanvasBoardTests-Info.plist"; sourceTree = "<group>"; };
+		3C30C93614BF193C002B3724 /* CanvasBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanvasBoardTests-Info.plist"; sourceTree = "<group>"; };
 		3C30C93814BF193C002B3724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3C30C93A14BF193C002B3724 /* CanvasBoardTests.h */ = {isa = PBXFileReference; path = CanvasBoardTests.h; sourceTree = "<group>"; };
+		3C30C93A14BF193C002B3724 /* CanvasBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasBoardTests.h; sourceTree = "<group>"; };
 		3C30C93B14BF193C002B3724 /* CanvasBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasBoardTests.m; sourceTree = "<group>"; };
+		3C30C94514BF1957002B3724 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C30C94E14BF1F5D002B3724 /* ViewElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewElements.h; sourceTree = "<group>"; };
+		3C30C94F14BF1F5D002B3724 /* ViewElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewElements.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C30C94614BF1957002B3724 /* QuartzCore.framework in Frameworks */,
 				3C30C91114BF193C002B3724 /* UIKit.framework in Frameworks */,
 				3C30C91314BF193C002B3724 /* Foundation.framework in Frameworks */,
 				3C30C91514BF193C002B3724 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,7 @@
 		3C30C90114BF193B002B3724 = {
 			isa = PBXGroup;
 			children = (
+				3C30C94514BF1957002B3724 /* QuartzCore.framework */,
 				3C30C91614BF193C002B3724 /* CanvasBoard */,
 				3C30C93414BF193C002B3724 /* CanvasBoardTests */,
 				3C30C90F14BF193C002B3724 /* Frameworks */,
@@ -113,6 +120,8 @@
 			children = (
 				3C30C91F14BF193C002B3724 /* AppDelegate.h */,
 				3C30C92014BF193C002B3724 /* AppDelegate.m */,
+				3C30C94E14BF1F5D002B3724 /* ViewElements.h */,
+				3C30C94F14BF1F5D002B3724 /* ViewElements.m */,
 				3C30C92214BF193C002B3724 /* ViewController.h */,
 				3C30C92314BF193C002B3724 /* ViewController.m */,
 				3C30C92514BF193C002B3724 /* ViewController.xib */,
@@ -261,6 +270,7 @@
 				3C30C91D14BF193C002B3724 /* main.m in Sources */,
 				3C30C92114BF193C002B3724 /* AppDelegate.m in Sources */,
 				3C30C92414BF193C002B3724 /* ViewController.m in Sources */,
+				3C30C95014BF1F5D002B3724 /* ViewElements.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +373,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CanvasBoard/CanvasBoard-Prefix.pch";
 				INFOPLIST_FILE = "CanvasBoard/CanvasBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,7 +386,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CanvasBoard/CanvasBoard-Prefix.pch";
 				INFOPLIST_FILE = "CanvasBoard/CanvasBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

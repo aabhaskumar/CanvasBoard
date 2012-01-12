@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/CAAnimation.h>
+#import "ViewElements.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+	ViewElements *accessView;
+	UIView *leftView;
+    UIView *toolBarHandle;
+}
+
+@property(nonatomic,retain) ViewElements *accessView;
+@property(nonatomic,retain) UIView *leftView;
+@property(nonatomic,retain) UIView *toolBarHandle;
 
 @end
