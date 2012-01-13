@@ -38,10 +38,24 @@
     circleButton = [accessView createButton:CGRectMake(5, 5, screenBounds.size.width/10 - 10, 25) withText:@"Circle"];
     buttonState=NO;
     [circleButton addTarget:self action:@selector(circleDraw) forControlEvents:UIControlEventTouchUpInside];
+    //clear screen
+    UIButton *clearButton = [accessView createButton:CGRectMake(5, 50, screenBounds.size.width/10 - 10, 25) withText:@"Clear"];
+    [clearButton addTarget:self action:@selector(clearScreen) forControlEvents:UIControlEventTouchUpInside];
     
     [leftView addSubview:circleButton];
     [leftView addSubview:toolBarHandle];
+    [leftView addSubview:clearButton];
     
+}
+-(void)clearScreen{
+    UIView *v=[[UIView alloc] init];
+    for (v in self.view.subviews) {
+        // Include the if-statement if you want to remove UIControls only
+        if ([v isKindOfClass:[UIView class]]) {
+            [v removeFromSuperview];
+        }
+        [self.view addSubview:leftView];
+    }
 }
 -(void)circleDraw{
     if(buttonState==NO)
